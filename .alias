@@ -2,6 +2,9 @@
 alias lla='ls -lah'
 alias l='ls -h'
 alias la='ls -ah'
+alias i='sudo apt install -y'
+alias u='sudo apt update -y'
+alias c2c='xclip -r -sel clip'
 
 # Docker
 alias dcl='sudo docker container ls -a'
