@@ -1,0 +1,20 @@
+# Bash
+alias lla='ls -lah'
+alias l='ls -h'
+alias la='ls -ah'
+
+# Docker
+alias dcl='sudo docker container ls -a'
+alias dcr='sudo docker container rm -f'
+alias dil='sudo docker image ls -a'
+alias dirm='sudo docker image rm -f'
+alias db='sudo docker build -t'
+alias de='sudo docker exec -it'
+alias dr='sudo docker run' 
+alias dcs='sudo docker container stop'
+alias drrm='sudo docker run --rm'
+alias dl='sudo docker logs'
+alias compose='sudo docker compose'
+alias dnl='sudo docker network ls'
+alias di='sudo docker inspect'
+alias dc='sudo docker cp'
