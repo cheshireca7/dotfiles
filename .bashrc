@@ -8,6 +8,11 @@ export PATH=$PATH:/sbin:/usr/local/go/bin:$HOME/go/bin
 # Change to Colemak layout
 setxkbmap us -variant colemak
 
+# Enable vi mode
+set -o vi
+export EDITOR=vim
+export VISUAL=vim
+
 # Tmux history logging
 if [[ -n "$TMUX" ]];then
 	(while :; do $HOME/.tmux/plugins/tmux-logging/scripts/save_complete_history.sh; sleep 60; done) &
